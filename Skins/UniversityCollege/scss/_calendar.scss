@@ -1,0 +1,189 @@
+/** 
+ * -------------------------------------------
+ * Calendar CSS
+ * -------------------------------------------
+ **/
+
+.ModEventsCalendarC{
+	position:relative;
+}
+
+table.tblNavLinks{
+	height: 27px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	z-index: 100;
+	td{
+		a{
+			&.cal-left, &.cal-right{
+				width: 27px;
+				height: 27px;
+				float: left;
+				display: block;
+				&:hover{
+					background-position: bottom left;
+				}
+			}
+			&.cal-left{
+				margin-left: 70px;
+				background: url('img/cal-prev.png') top left no-repeat;
+			}
+			&.cal-right{
+				background: url('img/cal-next.png') top left no-repeat;
+			}
+		}
+		input{
+			margin-top: 2px;
+		}
+	}
+}
+
+table.evt{
+	width: 100%;
+	margin: 10px auto 0;
+	background: transparent;
+	border: none;
+	td{
+		font-family: Arial, Helvetica, sans-serif;
+		&.evtDayHeader{
+			padding: 8px 0;
+			background: transparent;
+			border: none;
+			text-align: center;
+			font-weight: bold;
+			font-size: 9pt;
+			color: darken(#9e9c9c, 15%);
+		}
+		&.evtDay{
+			color: darken(#9e9c9c, 15%);
+			border: 1px solid #cfcfcf;
+			height: 115px;
+			padding: 3px 0 0 5px;
+			font-size: 10pt;
+			background: rgba(0,0,0,.04);
+			&>a{
+
+				padding: 2px 0 0 5px;
+				text-decoration: none;
+				font-size: 9pt;
+				
+			}
+		}
+		&.evtWeekendDay{
+			background: rgba(0,0,0,.04) !important;
+			background-color: rgb(236,236,236);
+		}
+		&.evtDayScroll{
+			padding: 0;
+			font-weight: normal;
+			text-decoration: none;
+			a{
+				font-size: 10pt;
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+		&.evtSelDay{
+			background: transparent;
+			outline: 1px solid darken(#990000, 5%);
+		}
+	}
+}
+
+span.evtTitle{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 10pt;
+	color: #444;
+}
+
+.evtBar{
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 1;
+	.evtbarBtn{
+		padding: 0;
+	}
+	a{
+		height: 27px;
+		display: block;
+		&.btnTop{
+			width: 63px;
+			position: absolute;
+			left: 0px;
+			background: url('img/cal-today.png') bottom left no-repeat;
+			&:hover{
+				background-position: top left;
+			}
+		}
+		&.cal-month, &.cal-agenda, &.cal-week, &.cal-day{
+			float: left;
+			&:hover{
+				background-position: bottom left;
+			}
+		}
+		&.cal-month, &.cal-day{
+			width: 63px;
+		}
+		&.cal-agenda, &.cal-week{
+			width: 62px;
+		}
+		&.cal-month{
+			background: url('img/cal-month.png') top left no-repeat;
+		}
+		&.cal-agenda{
+			background: url('img/cal-agenda.png') top left no-repeat;
+		}
+		&.cal-week{
+			background: url('img/cal-week.png') top left no-repeat;
+		}
+		&.cal-day{
+			background: url('img/cal-day.png') top left no-repeat;
+		}
+	}
+}
+
+table.rcTable{
+	td{
+		a{
+			&.rcCalPopup{
+				margin-top: 2px;
+			}
+		}
+	}
+}
+
+table.dvTable{
+	margin: 0 auto;
+	border: 1px #d2d2d2 solid;
+	border-collapse: collapse;
+	td{
+		&.dvAllDay, &.dvEvent{
+			background: #ddd;
+			border: none;
+		}
+		&.dvTime, &.dvTime2{
+			border-right: 1px #d2d2d2 solid;
+		}
+		&.dvTime2{
+			border-bottom: 1px #d2d2d2 solid;
+		}
+		&.dvEvent{
+			padding-left: 10px;
+		}
+		&.dvNoEvent{
+			border-bottom: 1px #d2d2d2 solid !important;
+		}
+		div.pop{
+			font-size: 12px;
+		}
+	}
+}
+
+div.wvHeader{
+	margin-top: 25px;
+	margin-bottom: 5px;
+	color: darken(#8e8e8e, 14%);
+}

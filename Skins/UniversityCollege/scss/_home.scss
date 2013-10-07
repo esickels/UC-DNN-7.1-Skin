@@ -1,0 +1,189 @@
+/** 
+ * -------------------------------------------
+ * Homepage Content CSS
+ * -------------------------------------------
+ **/
+.main-body{
+	width: 100%;
+	min-width: 1040px;
+	background: #f2f2f2 url('img/content_bg.jpg');
+	.container{
+		background: url('img/content_bg_top.jpg') no-repeat 0 0;
+	}
+}
+
+#dnn_NotificationPane{
+	display: none;
+}
+
+#dnn_FirstPane, #dnn_SecondPane, #dnn_ThirdPane{
+	margin-top: 25px;
+	float:left;
+	h2{
+		padding-bottom: 0;
+	}
+	ol,ul{
+		font-size: 10pt;
+		line-height: 16px;
+		list-style-position: outside;
+		padding: 0 0 15px 15px;
+	}
+	p{
+		margin: 0 0 4px 0;
+	}
+}
+
+#dnn_FirstPane, #dnn_SecondPane{
+	width: 320px;
+	margin-right: 40px;
+}
+	
+#dnn_ThirdPane{
+	width: 240px;
+	margin: 18px 0 20px 0;
+}
+
+.ucol-news, .article{
+	.articleImage {
+		display: inline-block;
+		margin-right: 10px;
+		vertical-align: top;
+	}
+}
+
+.ucol-news{
+	padding: 15px 0;
+	border-top: 1px solid #c6c6c6;
+	h4{
+		font-size:#666;
+		font-size:10pt;
+	}
+	a{
+		font-size:9pt;
+	}
+	&:first-child{
+		border-top:none;
+	}
+	.articleLatestSummary {
+		display: inline-block;
+		width: 75%;
+		a{
+			display: block;
+			padding-top: 3px;
+		}
+	}
+}
+
+.article{
+	margin-bottom:20px;
+	.articleSummary{
+		display:inline-block;
+		width:86%;
+	}
+	.articleCategories{
+		padding-bottom:20px;
+	}
+}
+
+.career-cal, .ModEventsCalendarC, .ModEventsCalendarSatelliteC, .events{
+	padding: 10px 0;
+	position:relative;
+	acronym{
+		width: 45px;
+		height: 45px;
+		margin: 0;
+		position:absolute;
+		display: inline-block;
+		border: none;
+		background: url('img/event_date.png') no-repeat;
+		font-family: Georgia, "Times New Roman", serif;
+		font-weight:normal;
+		font-style: italic;
+		font-size:10pt;
+		text-align: center;
+		color: #f8f3d2;
+		span.calPubMonth {
+			display: block;
+			padding: 5px 0 0;
+			background-color: transparent;
+		}
+		span.calPubDate{
+			font-size: 14pt;
+			line-height: 80%;
+		}
+	}
+	.title-desc, .event_info{
+		width:75%;
+		padding-left:60px;
+		display:inline-block;
+	}
+	span.ListTitle{
+		font-family:Georgia, "Times New Roman" serif;
+		font-size:10pt;
+		display:block;
+		text-transform: uppercase;
+	}
+	span.ListEventDate{
+		margin-left: 55px;
+	}
+	div.ListContent{
+		padding:2px 0;
+	}
+}
+
+.career-cal{
+	span.ListTitle{
+		margin-bottom: 1px;
+		padding-bottom: 10px;
+	}
+}
+
+.ModEventsCalendarC, .ModEventsCalendarSatelliteC{
+	.Normal{
+		padding: 20px 0 15px;
+		position: relative;
+	}
+	span.ListTitle{
+		padding: 2px 0;
+		margin-left: 55px;
+	}
+	div.ListContent, div.ListBtn{
+			margin-left: 55px;
+	}
+}
+
+.ModEventsCalendarC{
+	.Normal{
+		div.ListTitleRow{
+			padding-top: 30px;
+		}
+	}
+}
+
+.events{
+	.Normal{
+		width:100%;
+		padding-top: 15px;
+		position: relative;
+	}
+	.event_info{
+		width: 100%;
+		padding-left: 10px;
+		padding-bottom: 20px;
+		position: relative;
+		display: block;
+	}
+	div.ListTitleRow{
+		width:45px;
+		height: 45px;
+		position: absolute;
+	}
+	div.ListContent{
+		word-wrap:break-word;
+	}
+}
+
+.cal-view-more{
+	margin:20px 0;
+	display:block;
+}
