@@ -1899,56 +1899,51 @@ alignment-adjust:baseline;
 
 
 /*TABLE PARAMETERS */
-#ucfaculty{
+#uc_directory{
 	font-family:"Georgia Pro";
 	height:auto;
 	position:static;
 	width:100%;
-	
-
 }
-
-#ucfaculty td{ width: 90%;
-font-size: 13px;
-
-background-color:#E7E8E9;
-padding: 4px;
-padding-right:20px;
-height:auto;
-vertical-align:middle;
- border-bottom: 20px solid #F7F8F8;
+#uc_directory td {
+	width: 90%;
+	font-size: 13px;
+	background-color:#E7E8E9;
+	padding: 4px;
+	padding-right:20px;
+	height:auto;
+	vertical-align:middle;
+	border-bottom: 20px solid #FFF;
  position:;
-
-
-	}
-	
-#ucfaculty  a:link{color:#7D110C;
+}
+#uc_directory a:link {
+	color:#7D110C;
 	text-decoration:none;
 	font-weight:bold;
-	
-	}
-	#ucfaculty td a:hover {text-decoration:underline;
-	color:#7D110C;
-	
-	font-weight:bold;
-	}
-	
-	#ucfaculty td a:visited {
+}
+#uc_directory td a:hover {
+	text-decoration:underline;
 	color:#7D110C;
 	font-weight:bold;
-	}
-	
-#tbtext {   width: 120px;
-    word-wrap: break-word;
+}
+#uc_directory td a:visited {
+	color:#7D110C;
+	font-weight:bold;
+}
+#tbtext {
+	width: 120px;
+	word-wrap: break-word;
 	float:left;
 	padding-left:10px;
 	padding-right:10px;
-	margin-bottom:10px;}
-
-	 
-	#ucfaculty img {padding:12px;
-	float:left; }
+	margin-bottom:10px;
+}
+#uc_directory img {
+	padding:12px;
+	float:left;
+}
 	/* TABLE PARAMETERS */
+
 
 	
 /*-------------- THIS IS THE END OF UC FACULTY TABLE PARAMETERS---------------- */
