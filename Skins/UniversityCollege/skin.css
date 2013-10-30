@@ -1152,6 +1152,9 @@ text-decoration:underline !important;
   width: 240px;
   margin: 18px 0 20px 0;
 }
+#dnn_ThirdPane .secondary-content .Normal a{
+	font-size: 11px !important;
+	}
 #dnn_ThirdPane .DnnModule-DNN_Quotes .secondary-content h3 {
 	height: 5px !important;}
 .ucol-news .articleImage, .article .articleImage {
