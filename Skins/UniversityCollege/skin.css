@@ -1152,7 +1152,8 @@ text-decoration:underline !important;
   width: 240px;
   margin: 18px 0 20px 0;
 }
-
+#dnn_ThirdPane .DnnModule-DNN_Quotes .secondary-content h3 {
+	height: 5px !important;}
 .ucol-news .articleImage, .article .articleImage {
   display: inline-block;
   margin-right: 10px;
