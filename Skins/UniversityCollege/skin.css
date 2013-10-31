@@ -154,7 +154,6 @@ body {
 ol, ul {
   list-style: none;
   list-style-position: outside;
-  list-style-type: circle;
 }
 
 blockquote, q {
@@ -192,7 +191,15 @@ body {
 ol, ul {
   list-style: none;
 }
-
+#dnn_IntContent ol{
+	list-style-position:outside !important;
+	list-style: decimal !important;
+	}
+	#dnn_IntContent ul{
+		
+		list-style:disc;
+		list-style-position:outside !important;
+		}
 strong {
   font-weight: bold;
 }
