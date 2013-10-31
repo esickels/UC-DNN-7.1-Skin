@@ -1542,6 +1542,9 @@ text-decoration:underline !important;
   font-size: 12px;
   line-height: 1.2;
 }
+#side-navigation .rpText {
+width: 150px;
+}
 #side-navigation a:link, #side-navigation a:visited, #side-navigation a:active {
   text-decoration: none;
 }
