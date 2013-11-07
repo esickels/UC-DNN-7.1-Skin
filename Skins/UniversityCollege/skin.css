@@ -2053,3 +2053,10 @@ alignment-adjust:baseline;
 
 	
 /*-------------- THIS IS THE END OF UC FACULTY TABLE PARAMETERS---------------- */
+
+/*-------------- Add Spacing between Form Labels and Form Inputs--------------- */
+
+.DynamicForms_HeaderTable input{
+	margin-left: 20px;	
+	
+}
