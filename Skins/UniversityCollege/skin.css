@@ -1321,6 +1321,7 @@ text-decoration:underline !important;
 .interior-head {
   height: 79px;
   background: url("img/int-content-top.jpg") repeat-x -6px 0px;
+  overflow: overlay;
 }
 .interior-head .interior-header {
   padding: 20px 0 0;
