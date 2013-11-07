@@ -2057,7 +2057,6 @@ alignment-adjust:baseline;
 
 /*-------------- Add Spacing between Form Labels and Form Inputs--------------- */
 
-.DynamicForms_HeaderTable input{
-	margin-left: 20px;	
-	
+.DynamicForms_MainPanel .NormalTextBox {
+margin-left: 20px;
 }
