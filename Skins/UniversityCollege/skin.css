@@ -1161,7 +1161,7 @@ text-decoration:underline !important;
   margin: 18px 0 20px 0;
 }
 #dnn_ThirdPane .secondary-content .Normal a{
-	font-size: 11px !important;
+	font-size: 11px;
 	}
 #dnn_ThirdPane .DnnModule-DNN_Quotes .secondary-content h3 {
 	height: 5px !important;}
