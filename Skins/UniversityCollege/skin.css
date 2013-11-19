@@ -620,6 +620,7 @@ width: 440px;
 #navigation span.rmText {
   margin: 0;
   padding: 0;
+  line-height: normal;
 }
 #navigation span.rmText:hover {
   border-bottom: 2px solid #f8f3d2;
