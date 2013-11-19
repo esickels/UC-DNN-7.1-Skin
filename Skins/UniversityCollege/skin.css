@@ -591,6 +591,7 @@ width: 440px;
 }
 #navigation .RadMenu {
   float: none;
+  z-index: 100 !important;
 }
 #navigation .RadMenu_Default ul {
   zoom: 1;
