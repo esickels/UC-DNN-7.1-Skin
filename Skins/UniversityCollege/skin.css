@@ -194,12 +194,11 @@ ol, ul {
 #dnn_IntContent ol{
 	list-style-position:outside !important;
 	list-style: decimal !important;
-	}
-	#dnn_IntContent ul{
-		
-		list-style:disc;
-		list-style-position:outside !important;
-		}
+}
+
+#dnn_IntContent ul{
+  list-style: square inside none;
+}
 strong {
   font-weight: bold;
 }
