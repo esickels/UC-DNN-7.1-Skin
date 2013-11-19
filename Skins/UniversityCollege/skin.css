@@ -2099,3 +2099,8 @@ input#searchButton{
 .vivoSearch{
   margin-top:45px;	
 }
+
+/* Default hr tag update */
+hr {
+   border-color:rgb(0,0,0);	
+}
