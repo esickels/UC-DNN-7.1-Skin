@@ -4,12 +4,10 @@
 <%@ Register TagPrefix="dnn" TagName="TITLE" Src="~/Admin/Containers/Title.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="ACTIONBUTTON" Src="~/Admin/Containers/ActionButton.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="VISIBILITY" Src="~/Admin/Containers/Visibility.ascx" %>
-<%@ Register TagPrefix="dnn" TagName="MODULEACTIONSMENU" Src="~/DesktopModules/WatchersNET.SkinObjects.ModuleActionsMenu/ModuleActionsMenu.ascx" %>
 
 
 <div class="interior-body-type-full-width">
 <dnn:ACTIONS runat="server" id="dnnACTIONS"  ProviderName="DNNMenuNavigationProvider" ExpandDepth="1" PopulateNodesFromClient="True" />
-<dnn:moduleactionsmenu id="dnnMODULEACTIONSMENU" runat="server" includejs="True" MenuIcon='~/DesktopModules/WatchersNET.SkinObjects.ModuleActionsMenu/skins/action.png' DisplayIcon='True' cssfile="ModuleMenu-White" IncludeCssFile="True" contextmode="True"></dnn:moduleactionsmenu>	
 
 	<p id="ContentPane" runat="server">
 	</p>
