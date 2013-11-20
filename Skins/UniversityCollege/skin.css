@@ -1914,7 +1914,6 @@ div.uc-folio-rotator div.rotator-footer {
 #dnn_BannerPane{
 position: relative;
 border: 4px solid #f8f3d2;
-overflow: overlay;
 width: 952px;
 height: 452px;
 outline: 1px solid #7d110c;}
