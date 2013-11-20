@@ -89,6 +89,10 @@ ul[id$="dnnMODULEACTIONSMENU"]{
 	margin-top: 3px !important;
 }
 
+[id*="FAQs_lstFAQs"]{
+	text-decoration: none !important;
+}
+
 /** 
  * -------------------------------------------
  * Reset CSS
@@ -2108,3 +2112,5 @@ input#searchButton{
 hr {
    border-color:rgb(0,0,0);	
 }
+
+
