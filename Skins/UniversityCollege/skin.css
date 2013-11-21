@@ -203,6 +203,10 @@ ol, ul {
 #dnn_IntContent ul{
   list-style: square inside none;
 }
+
+#dnn_IntContent ul{
+  list-style: square inside none;
+}
 strong {
   font-weight: bold;
 }
