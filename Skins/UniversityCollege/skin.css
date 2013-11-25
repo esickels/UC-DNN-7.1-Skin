@@ -193,7 +193,7 @@ body {
 }
 
 ol, ul {
-  list-style: none;
+  list-style: inherit;
 }
 #dnn_IntContent ol{
 	list-style-position:outside !important;
