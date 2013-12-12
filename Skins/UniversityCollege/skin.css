@@ -2123,4 +2123,16 @@ hr {
 .twobytwoGrid tr{
    height:100px;
 }
-
+.dnnPrimaryAction:hover,
+.dnnSecondaryAction:hover
+ {
+    display: inline-block !important;
+    cursor: pointer !important;
+    text-align: center !important;
+	padding: 6px 6px !important;
+	border-color: #0D569E !important;
+-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.6), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4) !important;
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.6), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4)!important;
+text-shadow: 0px -1px 0px #185B93 !important;
+text-decoration:none !important;
+}
