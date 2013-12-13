@@ -2147,6 +2147,6 @@ text-decoration:none !important;
 .three_column_table { width:520px;
 padding-bottom:10px;}
 
-.three_column_table td { padding-left:8px;
+.three_column_table td { padding-left:8px; padding-bottom:10px;
 }
 
