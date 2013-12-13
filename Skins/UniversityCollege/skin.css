@@ -2143,3 +2143,10 @@ text-shadow: 0px -1px 0px #185B93 !important;
 text-decoration:none !important;
 }
 
+/* three_column_table*/
+.three_column_table { width:520px;
+padding-bottom:10px;}
+
+.three_column_table td { padding-left:8px;
+}
+
