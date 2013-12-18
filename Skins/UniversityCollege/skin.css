@@ -2150,3 +2150,15 @@ padding-bottom:10px;}
 .three_column_table td { padding-left:8px; padding-bottom:10px;
 }
 
+/* Advising Manual CSS */
+ul.treeview a{
+	width:150px !important;
+}
+
+ul.treeview li{
+	width:165px !important;
+}
+
+ul.treeview a.selected{
+	width:150px !important;	
+}
