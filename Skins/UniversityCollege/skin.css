@@ -273,9 +273,9 @@ a:hover {
   clear: both;
 }
 
-/*.ControlPanel, .PagingTable {
-  min-width: 1040px;
-}*/
+.ControlPanel, .PagingTable {
+  min-width:600px;
+}
 
 #dnn_ctr9573_SiteSettings_UP > table {
   width: inherit;
