@@ -2162,3 +2162,21 @@ ul.treeview li{
 ul.treeview a.selected{
 	width:150px !important;	
 }
+
+/******************CSS for Form and List on Resources Site *****************/
+
+#dnn_ctr4507_Default_List_grdData td{
+	padding-left:3px;
+}
+#dnn_ctr4507_Default_List_grdData th:nth-of-type(1){
+	width:5px;	
+}
+#dnn_ctr4507_Default_List_grdData th:nth-of-type(2){
+	width:12%;	
+}
+#dnn_ctr4507_Default_List_grdData th:nth-of-type(3){
+	width:12%;	
+}
+#dnn_ctr4507_Default_List_grdData th:nth-of-type(5){
+	width:15%;	
+}
