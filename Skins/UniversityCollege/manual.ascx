@@ -7,6 +7,7 @@
 <%@ Register TagPrefix="dnn" TagName="NAV" Src="~/Admin/Skins/Nav.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="RadPanelBar" Src="~/Admin/Skins/DNNRadPanelBar/DNNRadPanelBar.ascx" %>
 <%@ Register TagPrefix="ddr" TagName="MENU" src="~/DesktopModules/DDRMenu/Menu.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="YEAR" Src="~/Admin/Skins/currentyear.ascx" %>
 <%@ Register TagPrefix="ddr" Namespace="DotNetNuke.Web.DDRMenu.TemplateEngine"
   Assembly="DotNetNuke.Web.DDRMenu" %>
 <script type="text/javascript">
@@ -88,7 +89,7 @@ $(function(){
 					<li><a href="http://www.iupui.edu">IUPUI</a></li>
 				</ul>
 				<ul class="footer-links">
-					<li>Copyright &copy; 2002-2010 The Trustees of Indiana University</li> | 
+					<li>Copyright &copy; 2002-<dnn:YEAR runat="server" id="CopyrightYear"/> The Trustees of Indiana University</li> | 
 					<li><a href="http://www.indiana.edu/comments/complaint.shtml">Copyright Complaints</a></li> | 
 					<li><a href="http://www.uc.iupui.edu/aboutus/privacypolicy.aspx">Privacy Policy</a></li>
 				</ul>			
