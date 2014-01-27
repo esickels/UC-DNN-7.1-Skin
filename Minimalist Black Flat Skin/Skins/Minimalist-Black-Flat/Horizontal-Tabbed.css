@@ -19,7 +19,7 @@
 /*     Main Menu and Module Menus                         */
 /*========================================================*/
 
-/*-- box that holds the menu        --*/ .MainMenu_MenuContainer { background: transparent; }
+/*-- box that holds the menu        --*/ .MainMenu_MenuContainer { background: transparent;  border: none; }
 /*-- bar that holds the menu        --*/ .MainMenu_MenuBar { height:36px; cursor: pointer; cursor: hand; background: transparent; }
 /*-- submenu container              --*/ .MainMenu_SubMenu, .ModuleTitle_SubMenu { margin: 1px 0 0 2px; filter:Alpha(Opacity=90);-moz-opacity:.90; }
 /*-- main menu idle item            --*/ .MainMenu_Idle TD{line-height:0;vertical-align:top;margin:0;padding:0;}
