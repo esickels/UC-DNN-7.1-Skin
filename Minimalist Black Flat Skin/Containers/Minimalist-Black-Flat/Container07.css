@@ -1,0 +1,32 @@
+/*========================================================*/
+/*             CSS for DotNetNuke Containers              */
+/*                  by Evan O'Neil                        */
+/*              http://www.NukeVille.com                  */
+/*========================================================*/
+
+/*========================================================*/
+/*     Container Design Elements                          */
+/*========================================================*/
+
+
+/*-- conatiner title token             --*/ .EON_MI_BLF07Title { font-size: 11px; font-family: tahoma; color: #696969; font-weight: bold; }
+/*-- container title cell              --*/ .EON_MI_BLF07Titletd { width:100%; padding: 0;}
+/*-- container actions cell            --*/ .EON_MI_BLF07Actionstd { width:0%; padding: 0;}
+/*-- container content pane            --*/ .EON_MI_BLF07Content { font-size: 11px; font-family: tahoma; color: #444; padding: 5px 0 0 0;}
+/*-- container Icons cell              --*/ .EON_MI_BLF07Icons { text-align:right; padding: 5px 0 7px 0; border-top: 1px solid #BBBBBB;}
+
+/*-- top center section                --*/ .EON_MI_BLF07T { background: url(07t_Minimalist.png) top left repeat-x; vertical-align:middle; height: 28px; padding: 2px 0 0 0; }
+/*-- top left section                  --*/ .EON_MI_BLF07TL { background: url(07tl_Minimalist.png) top left no-repeat; vertical-align:top; height: 28px; width:10px; padding: 0; }
+/*-- top right section                 --*/ .EON_MI_BLF07tr { background: url(07tr_Minimalist.png) top right no-repeat; height: 28px; width:22px; vertical-align:middle; text-align:left; padding: 0 0 0 0; }
+
+/*-- mid center section                --*/ .EON_MI_BLF07M { background: url(07m_Minimalist.png); vertical-align:top; padding: 0; }
+/*-- mid left section                  --*/ .EON_MI_BLF07ML { background: url(07ml_Minimalist.png) bottom left repeat-y; vertical-align:top; width:10px; padding: 0; }
+/*-- mid right section                 --*/ .EON_MI_BLF07MR { background: url(07mr_Minimalist.png) bottom right repeat-y; vertical-align:top; width:10px; padding: 0; }
+
+/*-- bottom center section             --*/ .EON_MI_BLF07B { background: url(07b_Minimalist.png) bottom left repeat-x; vertical-align:top; height: 17px; padding: 8px 0 0 0; }
+/*-- bottom left section               --*/ .EON_MI_BLF07BL { background: url(07bl_Minimalist.png) bottom left no-repeat; vertical-align:top; height: 17px; width:10px; padding: 0; }
+/*-- bottom right section              --*/ .EON_MI_BLF07BR { background: url(07br_Minimalist.png) bottom right no-repeat; vertical-align:top; height: 17px; width:10px; padding: 0; }
+
+/*========================================================*/
+
+

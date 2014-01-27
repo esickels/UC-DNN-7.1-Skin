@@ -1,0 +1,29 @@
+/*========================================================*/
+/*         CSS for DotNetNuke Skin - Minimalist           */
+/*                   by Evan O'Neil                       */
+/*             http://www.NukeVille.com                   */
+/*========================================================*/
+
+/*========================================================*/
+/*  Outer Box Type                                        */
+/*========================================================*/
+
+/*-- outer cell on skins           --*/ .OuterTD { padding:10px 0 10px 0; }
+/*-- used for setting attribute    --*/ .SkinBox {}
+/*-- boxed skins outer box table   --*/ .SkinBox .MainBox { height:100%; }
+/*-- top left corner               --*/ .SkinBox .BoxTL { display:none; }
+/*-- top edge                      --*/ .SkinBox .BoxT { display:none; }
+/*-- top right corner              --*/ .SkinBox .BoxTR { display:none; }
+/*-- left edge                     --*/ .SkinBox .BoxL { display:none; }
+/*-- right edge                    --*/ .SkinBox .BoxR { display:none; }
+/*-- bottom left corner            --*/ .SkinBox .BoxBL { display:none; }
+/*-- bottom edge                   --*/ .SkinBox .BoxB { display:none; }
+/*-- bottom right corner           --*/ .SkinBox .BoxBR { display:none; }
+
+/*==========================================================*/
+/*  End Style Sheet                                         */
+/*==========================================================*/
+
+
+
+

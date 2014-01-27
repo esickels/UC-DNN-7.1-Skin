@@ -1,0 +1,18 @@
+/*========================================================*/
+/*         CSS for DotNetNuke Skin - Minimalist           */
+/*                   by Evan O'Neil                       */
+/*             http://www.NukeVille.com                   */
+/*========================================================*/
+
+/*========================================================*/
+/*  Background Elements                                   */
+/*========================================================*/
+
+.BackgroundTile { background: url(10_tile.gif) repeat top left; }
+.BackgroundTopStretch { background: url(10_stretch.gif) repeat-x top left; }
+.BackgroundImage { background: url(10_image.jpg) no-repeat top left;}
+
+/*==========================================================*/
+/*  End Style Sheet                                         */
+/*==========================================================*/
+

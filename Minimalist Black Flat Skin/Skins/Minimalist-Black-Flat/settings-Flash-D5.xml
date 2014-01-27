@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<images>
+  <image url="Intro.jpg" textanimation="12" delay="6" textsize="44" capsize="40" textcolor="#FFFFFF" capopacity="0" capposition="left" caption ="Feature Demo: Image Transitions"/>
+  <image url="Intro.jpg" delay="15" textanimation="12" capcolor="#000000" capsize="40" capopacity="45" capsize="40" capposition="left" transition="1" caption ="IMAGE TRANSITIONS DEMO -- There are 15 great image transitions in Minimalist's Flash Header. You can apply a different transition to each image or choose to have the same transition on all images. This demo shows all these 15 image transitions one by one." href=""/>
+  <image url="Demo05/01.jpg" transition="1" caption ="IMAGE TRANSITION 1" href=""/>
+  <image url="Demo05/02.jpg" transition="2" caption ="IMAGE TRANSITION 2" href=""/>
+  <image url="Demo05/03.jpg" transition="3" caption ="IMAGE TRANSITION 3" href=""/>
+  <image url="Demo05/04.jpg" transition="4" caption ="IMAGE TRANSITION 4" href=""/>
+  <image url="Demo05/05.jpg" transition="5" caption ="IMAGE TRANSITION 5" href=""/>
+  <image url="Demo05/06.jpg" transition="6" caption ="IMAGE TRANSITION 6" href=""/>
+  <image url="Demo05/07.jpg" transition="7" caption ="IMAGE TRANSITION 7" href=""/>
+  <image url="Demo05/08.jpg" transition="8" caption ="IMAGE TRANSITION 8" href=""/>
+  <image url="Demo05/09.jpg" transition="9" caption ="IMAGE TRANSITION 9" href=""/>
+  <image url="Demo05/10.jpg" transition="10" caption ="IMAGE TRANSITION 10" href=""/>
+  <image url="Demo05/11.jpg" transition="11" caption ="IMAGE TRANSITION 11" href=""/>
+  <image url="Demo05/12.jpg" transition="12" caption ="IMAGE TRANSITION 12" href=""/>
+  <image url="Demo05/01.jpg" transition="13" caption ="IMAGE TRANSITION 13" href=""/>
+  <image url="Demo05/02.jpg" transition="14" caption ="IMAGE TRANSITION 14" href=""/>
+  <image url="Demo05/03.jpg" transition="15" caption ="IMAGE TRANSITION 15" href=""/>
+</images>
+<settings>
+  <autoPlay playOption = "0" showPause="1"/>
+  <buttons showNav= "1" />
+  <defaults url="Intro.jpg" delay="8" textalign="center" transition = "1" textsize="16" textcolor="#FFFFFF" textanimation="1" capcolor="#000000" capopacity="60" capsize="20" capposition="bottom" caption ="" href=""/>
+</settings>

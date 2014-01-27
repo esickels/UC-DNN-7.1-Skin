@@ -1,0 +1,61 @@
+/*========================================================*/
+/*         CSS for DotNetNuke Skin - Minimalist           */
+/*                   by Evan O'Neil                       */
+/*             http://www.NukeVille.com                   */
+/*========================================================*/
+
+/*========================================================*/
+/*    Design Elements                                     */
+/*========================================================*/
+
+/*-- main menu height               --*/ .MenuHeight { height:36px; }
+/*-- cell containing main menu      --*/ .MenuTD {  background: url(nav2-bg.gif) repeat-x top left; padding: 0 0 0 0; }
+/*-- main menu left end             --*/ .MenuLeft { width:18px; background: url(nav2-bg-l.gif) no-repeat top left; }
+/*-- main menu right end            --*/ .MenuRight { width:17px; background: url(nav2-bg-r.gif) no-repeat top left; }
+/*-- sub menu height                --*/ .SubMenuHeight { height:36px; }
+/*-- cell containing sub menu       --*/ .SubMenuTD {  background: url(subnav-bg.gif) repeat-x top left; padding: 0 10px 0 10px; }
+/*-- sub menu left end              --*/ .SubMenuLeft { width:24px; background: url(subnav-bg-l.gif) no-repeat top left; }
+/*-- sub menu right end             --*/ .SubMenuRight { width:24px; background: url(subnav-bg-r.gif) no-repeat top left; }
+/*-- cell containing login          --*/ .LoginTD { width: 100%; vertical-align: middle; text-align: right; font-size: 7px; padding: 0 0 8px 0; }
+/*-- cell containing copyright      --*/ .CopyrightRow { height:20px; padding: 0 10px 0 10px; vertical-align: bottom; }
+
+										.PanelWidth { width: 212px; vertical-align: top; padding: 0 0 0 0; }
+										.PanelTD { padding:0 7px 0 7px; }
+										.PanelBG { background: url(panel6-bg.gif) repeat top left; }
+										.PanelGrad { height:100%; background: transparent; display:block; }
+										.PanelT { height:100%; background: url(panel6-border.gif) repeat-x top left; display:block; }
+										.PanelB { height:100%; background: url(panel6-border.gif) repeat-x bottom left; display:block; }
+										.PanelR { height:100%; background: url(panel6-border.gif) repeat-y top right; display:block; }
+										.PanelL { height:100%; background: url(panel6-border.gif) repeat-y top left; display:block; }
+										.PanelTL { height:100%; background: url(panel6-bg-tl.gif) no-repeat top left; display:block; }
+										.PanelTR { height:100%; background: url(panel6-bg-tr.gif) no-repeat top right; display:block; padding: 10px 0 7px 0; }
+										.PanelBL { height:100%; background: url(panel6-bg-bl.gif) no-repeat bottom left; display:block; }
+										.PanelBR { height:100%; background: url(panel6-bg-br.gif) no-repeat bottom right; display:block; }
+										.PanelMid { height:100%; }
+
+/*========================================================*/
+/*     Main Menu and Module Menus                         */
+/*========================================================*/
+
+/*-- box that holds the menu        --*/ .MainMenu_MenuContainer { background: transparent; width: 212px; height:1px; padding: 0 0 0 0; _margin: -2 0 0 0; margin: 0 0 0 0; }
+/*-- bar that holds the menu        --*/ .MainMenu_MenuBar { cursor: pointer; cursor: hand; background: transparent; width: 212px; height:1px; padding: 0 0 0 0; margin: 0 0 0 0; }
+/*-- submenu container              --*/ .MainMenu_SubMenu, .ModuleTitle_SubMenu { margin: 0 0 0 2px; }
+/*-- menuitems idle                 --*/ .MainMenu_Idle TD { color: #171717; background: url(nav6-idle.gif) no-repeat top left transparent; font-size: 8pt; padding: 0 0 0 0; font-weight: bold; width: 212px; height: 30px; }
+/*-- menuitems over                 --*/ .MainMenu_Selected TD { color: #FFFFFF; background: url(nav6-selected.gif) no-repeat top left transparent; font-size: 8pt; padding: 0 0 0 0; font-weight: bold; width: 212px; height: 30px; }
+/*-- menuitems active               --*/ .MainMenu_Active TD, .MainMenu_BreadcrumbActive TD { color: #171717; background: url(nav6-active.gif) no-repeat top left transparent; font-size: 8pt; padding: 0 0 0 0; font-weight: bold; width: 212px; height: 30px; }
+/*-- not needed - main menu         --*/ .MainMenu_Idle TD IMG, .MainMenu_Selected TD IMG, .MainMenu_BreadcrumbActive TD IMG, .MainMenu_RootMenuArrow, .MainMenu_MenuIcon  { display: none; }
+/*-- module menu continer           --*/ .ModuleTitle_MenuContainer { color: #2c2c2c; }
+/*-- module menu bar                --*/ .ModuleTitle_MenuBar { cursor: pointer; cursor: hand;}
+/*-- module menu padding            --*/ .ModuleTitle_MenuItem, .ModuleTitle_MenuItemSel { padding: 0 25px 0 15px; }
+/*-- not needed - module menu       --*/ .MainMenuSeperator, .ModuleTitle_MenuArrow, .ModuleTitle_RootMenuArrow { display: none; }
+/*-- module menu icon               --*/ .ModuleTitle_MenuIcon { background: #FFF; border: 0px; border-bottom: 1px dotted #999; width:0px; height: 20px; padding: 0 0 0 0; margin: 0 0 0 0; font-size: 0px; }
+/*-- module menu icon image         --*/ .ModuleTitle_MenuIcon IMG { margin: 0 10px 0 10px; }
+/*-- removing seperator borders     --*/ .MainMenu_MenuBreak { border-top-style: none; border-right-style: none;	border-left-style: none; border-bottom-style: none; background:transparent;  vertical-align:top;}
+/*-- cell containing submenu arrows --*/ .MainMenu_MenuArrow { padding: 0 0 0 0; margin: 0 0 0 0; border-left:0px; border-right:0px; border-top:0px; border-bottom: 1px solid #ccc; }
+
+/*==========================================================*/
+/*  End Style Sheet                                         */
+/*==========================================================*/
+
+
+

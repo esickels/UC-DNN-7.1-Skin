@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<images>
+  <image url="Demo01/01.jpg" delay="6" textsize="44" textcolor="#FFFFFF" capopacity="0" caption ="Great products ... Even better support !"/>
+  <image url="Demo01/01.jpg" transition = "6" caption ="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur occaecat cupidatat non proident."/>
+  <image url="Demo01/02.jpg" delay="6" textsize="44" textcolor="#FFFFFF" capopacity="0" caption ="Growth and success ... with an edge !"/>
+  <image url="Demo01/02.jpg" transition = "6" caption ="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur occaecat cupidatat non proident."/>
+  <image url="Demo01/03.jpg" delay="6" textsize="44" textcolor="#FFFFFF" capopacity="0" caption ="Unique ideas ... Practical results !"/>
+  <image url="Demo01/03.jpg" transition = "6" caption ="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur occaecat cupidatat non proident."/>
+  <image url="Demo01/04.jpg" delay="6" textsize="44" textcolor="#FFFFFF" capopacity="0" caption ="An amazing portfolio ... and spirits to match!"/>
+  <image url="Demo01/04.jpg" transition = "6" caption ="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur occaecat cupidatat non proident."/>
+  <image url="Demo01/05.jpg" delay="6" textsize="44" textcolor="#FFFFFF" capopacity="0" caption ="Features and options ... that give you control !"/>
+  <image url="Demo01/05.jpg" transition = "6" caption ="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur occaecat cupidatat non proident."/>
+  <image url="Demo01/06.jpg" delay="6" textsize="44" textcolor="#FFFFFF" capopacity="0" caption ="Minimalist approach ... Maximum flexibility !"/>
+  <image url="Demo01/06.jpg" transition = "6" caption ="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur occaecat cupidatat non proident."/>
+  <image url="Demo01/07.jpg" delay="6" textsize="44" textcolor="#FFFFFF" capopacity="0" caption ="Impressively Powerful ... Totally in control !"/>
+  <image url="Demo01/07.jpg" transition = "6" caption ="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur occaecat cupidatat non proident."/>
+</images>
+<settings>
+  <autoPlay playOption = "0" showPause="0"/>
+  <buttons showNav= "0" />
+  <defaults url="Intro.jpg" delay="14" textalign="center" transition = "6" textsize="16" textcolor="#555555" textanimation="19" capcolor="#FFFFFF" capopacity="70" capsize="55" capposition="right" caption ="" href=""/>
+</settings>

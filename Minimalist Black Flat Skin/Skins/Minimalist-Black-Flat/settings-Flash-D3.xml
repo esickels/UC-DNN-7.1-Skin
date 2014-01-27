@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<images>
+  <image url="Demo03/01.jpg" caption ="Another great feature of Minimalist's Flash header is 'image scrolling'. The Flash Header automatically scrolls images horizontally or vertically based on the width and height of the image."/>
+  <image url="Demo03/04.jpg" caption ="This feature can be used to create impressive headers with wider or taller images. Panoramic images of interiors can also be used to create stunning scrolling panoramas."/>
+  <image url="Demo03/03.jpg" caption ="Navigation Buttons on the left and right can be used to switch to the next or previous image. These allow users to quickly move forwards or backwards in longer intros and presenatations."/>
+  <image url="Demo03/05.jpg" caption ="Similarly the Play and Pause button that appears when you place your mouse over the flash header allows users to pause and play the current slide. Great for product and feature demos."/>
+  <image url="Demo03/02.jpg" caption ="You can easily enable or disable Navigation Buttons and the Play and Pause button on any flash header, simply by making a small change in each Flash header's XML file."/>
+  <image url="Demo03/06.jpg" caption ="You can also link each image in a Flash header to a different URL. You can specify these URLs in the XML file. Click on this image to open Google.com in a new window." href="http://www.google.com"/>
+</images>
+<settings>
+  <autoPlay playOption = "0" showPause="1"/>
+  <buttons showNav= "1" />
+  <defaults url="Intro.jpg" delay="14" textalign="center" transition = "11" textsize="19" textcolor="#FFFFFF" textanimation="12" capcolor="#000000" capopacity="45" capsize="40" capposition="left" caption ="" href=""/>
+</settings>
