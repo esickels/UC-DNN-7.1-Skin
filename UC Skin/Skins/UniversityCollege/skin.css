@@ -1143,7 +1143,8 @@ text-decoration:underline !important;
 }
 
 #dnn_NotificationPane {
-  display: none;
+  font-style: italic;
+font-size: 18px;
 }
 
 #dnn_FirstPane, #dnn_SecondPane, #dnn_ThirdPane {
