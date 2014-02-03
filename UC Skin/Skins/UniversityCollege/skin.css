@@ -1144,7 +1144,16 @@ text-decoration:underline !important;
 
 #dnn_NotificationPane {
   font-style: italic;
-font-size: 18px;
+font-size: 15px;
+color: #f8f3d2;
+font-family:Georgia;
+background: url("/Portals/BLC/back1.png") no-repeat ;
+}
+#Infobar_image {
+	height:12px;
+	}
+#Infobar_title{
+	margin-left:45px;}
 }
 
 #dnn_FirstPane, #dnn_SecondPane, #dnn_ThirdPane {
