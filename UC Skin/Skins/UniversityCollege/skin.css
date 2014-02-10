@@ -204,9 +204,10 @@ ol, ul {
   list-style: square inside none;
 }
 
-#dnn_IntContent ul{
+/*#dnn_IntContent ul{
   list-style: square inside none;
-}
+}*/
+
 strong {
   font-weight: bold;
 }
@@ -497,7 +498,7 @@ width: 440px;
 width: 440px;
 }
 .topbar {
-  background: ##EFE5C6;
+  background: #EFE5C6;
   border-bottom: 2px solid #fff;
   width: 100%;
   min-width: 1040px;
