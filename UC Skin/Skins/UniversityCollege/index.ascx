@@ -3,9 +3,10 @@
 <%@ Register TagPrefix="dnn" TagName="USER" Src="~/Admin/Skins/User.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="LOGIN" Src="~/Admin/Skins/Login.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="SEARCH" Src="~/Admin/Skins/Search.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="YEAR" Src="~/Admin/Skins/currentyear.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="RadMenu" Src="~/Admin/Skins/DNNRadMenu/DNNRadMenu.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="NAV" Src="~/Admin/Skins/Nav.ascx" %>
-<%@ Register TagPrefix="dnn" TagName="YEAR" Src="~/Admin/Skins/currentyear.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="LEFTMENU" Src="~/Admin/Skins/LeftMenu.ascx" %>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <meta name="viewport" content="width=device-width">
 	 <div class="topbar">
@@ -66,6 +67,11 @@ $(function(){
 			<div id="SecondPane" class="ContentPane" runat="server"></div>
 			<div id="ThirdPane" class="ContentPane" runat="server"></div>
 			<br class="float-clear"/>
+			<div class="footerTextWrapper">
+        		<div class="footerText">
+            		<p>What Matters. Where it Matters.</p>
+        		</div>
+   			</div>
 		</div>
         
         
