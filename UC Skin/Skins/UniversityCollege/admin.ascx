@@ -48,12 +48,13 @@ var crisis_com_show_output = "large";
 			<div class="interior-container">
 				<div id="ContentPane" class="ContentPane" runat="server"></div>
 				<br class="float-clear"/>
+				<div class="footerTextWrapper">
+        		<div class="footerText">
+            		<p>What Matters. Where it Matters.</p>
+        		</div>
+   			</div>
 			</div>
 		</div>
-		<div class="footerTextWrapper">
-        <div class="footerText">
-            <p>What Matters. Where it Matters.</p>
-        </div>
 	</div>
 <div class="footerInterior">
     	
