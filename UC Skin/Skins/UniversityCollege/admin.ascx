@@ -50,6 +50,10 @@ var crisis_com_show_output = "large";
 				<br class="float-clear"/>
 			</div>
 		</div>
+		<div class="footerTextWrapper">
+        <div class="footerText">
+            <p>What Matters. Where it Matters.</p>
+        </div>
 	</div>
 <div class="footerInterior">
     	
