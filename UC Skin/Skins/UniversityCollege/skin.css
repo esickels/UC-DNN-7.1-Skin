@@ -1409,12 +1409,6 @@ z-index: 90 !important;
   clear: both;
 }
 
-.interior-body-type,
-.interior-body-type-no-banner,
-.interior-body-type-full-width,
-.interior-body-type-wide {
-  float: left;
-}
 .interior-body-type .Normal,
 .interior-body-type-no-banner .Normal,
 .interior-body-type-full-width .Normal,
