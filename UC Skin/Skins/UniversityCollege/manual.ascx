@@ -45,7 +45,12 @@ $(function(){
 });
 </script>
 				</div>
-				    <div id="VivoSearchPane" class="vivoSearch" runat="server"></div>
+				    <div id="VivoSearchPane" class="vivoSearch" runat="server">
+				    <div id="search" class="span3 pull-right">
+                <dnn:SEARCH ID="dnnSearch" runat="server" ShowSite="false" ShowWeb="false" EnableTheming="true" Submit="Search" CssClass="SearchButton" /></div>
+				    
+				    
+				    </div>
 			</div>
 			<div id="navigation">
 
