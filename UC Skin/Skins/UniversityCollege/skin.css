@@ -1366,7 +1366,7 @@ z-index: 90 !important;
 .interior-head, .interior-container {
   width: 960px;
   margin: 0 auto;
-  padding-top: .02px;
+  padding-top: 1px;
 }
 .interior-head .interior-content, .interior-container .interior-content {
   width: 920px;
