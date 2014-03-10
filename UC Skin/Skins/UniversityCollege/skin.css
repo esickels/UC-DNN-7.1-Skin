@@ -2520,7 +2520,7 @@ ul.searchSkinObjectPreview li {
 
 
 /*--------------------------SEARCH RESULTS FOR DNN 7.1----------------------------------*/
-#dnn_ctr5291_ModuleContent.DNNModuleContent.ModSearchResultsC {
+.DNNModuleContent.ModSearchResultsC {
 	width:960px;
 }
 
