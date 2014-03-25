@@ -2224,8 +2224,9 @@ ul.treeview a.selected{
 /******************Footer for interior pages*****************/
 
 .footerInterior{
-	border-top:6px solid rgb(239, 229, 198);
+	border-top:6px solid rgb(239, 229, 198) !important;
 	height:100% !important;	
+	min-width:1040px !important;
 	
 }
 
@@ -2262,9 +2263,10 @@ ul.treeview a.selected{
 /******************Footer for index pages*****************/
 
 .footerIndex{
-	border-top:6px solid rgb(139,7,5);
+	border-top:6px solid rgb(139,7,5) !important;
 	height:100% !important;	
-	background: rgb(239,229,198);
+	background: rgb(239,229,198) !important;
+	min-width:1040px !important;
 	
 }
 
