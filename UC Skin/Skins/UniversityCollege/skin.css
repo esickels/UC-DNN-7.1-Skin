@@ -204,6 +204,10 @@ ol, ul {
   list-style: square inside none;
 }
 
+#dnn_IntContent{
+  float:left;	
+}
+
 /*#dnn_IntContent ul{
   list-style: square inside none;
 }*/
