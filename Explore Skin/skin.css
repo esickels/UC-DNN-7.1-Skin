@@ -1,0 +1,618 @@
+@charset "utf-8";
+/* CSS Document */
+
+/** 
+ * -------------------------------------------
+ * Reset CSS
+ * -------------------------------------------
+ **/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	z-index:0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	min-width:100%;
+	
+}
+ol, ul {
+	list-style: none;
+}
+
+ 
+	
+	
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+@font-face {
+  font-family: "benton";
+   src:url('fonts/benton-sans-bold.eot'); 
+	src:('fonts/benton-sans-bold.eot?#iefix') format("embedded-opentype");
+  src:url('fonts/benton-sans-bold.ttf') format('truetype');
+   
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#wrap {
+min-width:100%;
+height:100%;
+margin: 0;
+padding: 0;
+border: 0;
+	
+	}
+		
+		
+
+header { width:100%;
+position:relative;
+min-height:52px;
+z-index:120;
+background-color:#900;
+margin:0;
+padding:0;
+  display:block;
+
+}
+
+header img  { height:auto;
+width:auto;
+	padding-left:50px;
+	position:absolute;
+	float:left;
+	z-index:10;
+	
+	
+		}
+
+
+  p.university{ color:white;
+font-family: "bentonsanscond regular";
+font-size:24px;
+padding:15px;
+position:;
+margin-left:122px;	
+	}
+	
+	
+h1
+{ font-size:100%;
+    z-index:100;
+    position:absolute;    
+    color:white;
+    font-weight:bold;
+	text-align:;
+    top:50%;
+	left:20%;
+	font-family: "BentonSansCond Black", "BentonSansCond Book" ;
+	font-size:90pt;
+	display:block;
+	font-size:9.0vw;
+	  
+	
+	}
+
+
+h2
+{
+    position:relative;
+	text-align:center;  
+	padding-bottom:8px;
+	top:25px;  
+    color:#333333;
+    font-weight:bold;
+	font-family: "BentonSansCond Medium";
+	font-size:40pt;
+	border-bottom: 3px solid #446A7d;
+	overflow:none;
+}
+
+
+
+h3
+{
+    position:relative;
+	text-align:center;  
+	
+	top:15px;  
+    color:#333333;
+    font-weight:bold;
+	font-family: "BentonSansCond Medium";
+	font-size:27pt;
+	overflow:none;
+
+}
+
+
+
+h3.module_content
+{
+	text-align:left;  
+    color:#333333;
+    font-weight:bold;
+	font-family: "BentonSansCond Medium";
+	font-size:27pt;
+	margin-bottom:20px;
+
+}
+
+
+
+
+h5 {
+	
+
+    position:relative;
+	text-align:center;  
+	
+	top:15px;  
+	color:#333333;
+    font-weight:bold;
+	font-family: "BentonSansCond Medium";
+	font-size:27pt;
+	overflow:none;
+		border-bottom: 1px solid #D6D6D6;
+
+
+}
+
+
+h6 {
+	
+    position:relative;
+	text-align:center;  
+	
+	top:15px;  
+    color:#333333;
+    font-weight:bold;
+	font-family: "BentonSansCond Book";
+	font-size:36pt;
+	overflow:none;
+			border-bottom: 3px solid #2D637F;
+
+	
+	
+	
+}
+
+#Explore_title { width:100%;
+	padding-top:20px;
+	}
+
+h7
+{
+   text-align:left;  
+    color:#333333;
+    font-weight:bold;
+	font-family: "BentonSansCond Medium";
+	font-size:27pt;
+	
+}
+
+
+
+
+#wrap_banner {
+	min-width:100%;
+	height:auto;
+position:relative;
+padding:0;
+margin:0;	
+}
+	
+	
+.banner{ min-height:auto;
+width:100%;
+position:relative;
+margin:0;
+padding:0;
+background-color:red;
+}
+
+
+.banner img{width:100%;
+	height: auto;
+	overflow: auto;
+	margin:0;
+padding:0px;
+ display: block;
+    margin-left: auto;
+    margin-right: auto 
+	}
+	
+	#step_banner {width:100%;
+		}
+		
+		#step_banner img {	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width:100%}
+	
+	#timeline {width:100%;
+	padding-top:10px;
+	}
+	
+	#timeline img{ width:30%;
+	float:left;
+	padding-bottom:10px;
+	
+		
+		
+		}
+	
+	.pin{ width:100%;
+	height:auto;
+	position:absolute;
+		z-index:100;
+margin-bottom:0px;
+margin-left:auto;
+margin-top:auto;
+bottom:-40px;		
+
+		}
+	.pin img{ width:5%;
+	position: relative;
+	 display:block;	
+	 
+	 }
+	
+	
+	#pin_wrap { width:100%;
+	background-color:;
+	position:absolute;
+	height:auto;
+		
+		
+		
+		}
+	
+	
+#content_contain { width:100%;
+	min-height:900px;
+	margin:0;
+	padding-top:0px;
+	position:;
+		
+	}
+	
+	.content {width:80%;
+	min-height:900px;
+	background-color:;
+	margin:0 auto;
+	z-index:;
+	padding:0;
+	font-family: "BentonSans Book";
+
+		}
+	
+	#big_button_wrap { width:auto;
+	height:auto;
+	position:;
+	padding-bottom:60px;
+	margin-left:40%;
+		margin-right:40%;
+		
+		padding-top:20px;}
+		
+		
+		.big_button {background-color:#446A7d;
+padding:18px 50px 0px 50px;
+height:40px;
+font-family: "BentonSans Book";
+font-size:20px;
+text-decoration:none;
+color:white;
+display: inline-block;
+
+}
+		
+		
+		
+		
+		
+		
+	#continue_button_wrap { width:auto;
+	height:auto;
+	position:;
+	padding-bottom:60px;
+	padding-right:50px;
+	float:right;
+		
+		padding-top:20px; }
+
+
+
+
+
+.continue_button {
+	background-color:#446A7d;
+padding:10px 44px 0px 44px;
+height:33px;
+font-family: "BentonSans Book";
+font-size:20px;
+text-decoration:none;
+color:white;
+display:inline-block;
+}
+
+
+.continue_button:hover{background-color:#588498; }
+
+
+
+
+
+.big_button:hover{background-color:#588498; }
+
+
+
+.norm_button {background-color:#446A7d;
+padding:10px 45px 10px 45px;
+height:47px;
+font-family: "BentonSans Book";
+font-size:20px;
+text-decoration:none;
+color:white;
+
+}
+
+.norm_button:hover{background-color:#588498; }
+
+
+
+
+
+
+.column { width:48%;
+min-height:200px;
+float:left;
+background-color:;
+margin: 0 10px 0 10px;
+padding:0;
+
+margin-top:30px;
+
+	
+	}
+
+p.column { width:auto; 
+	font-size:14pt;
+	font-family:"BentonSansCond Book"; 
+			color:#333333;
+
+	}
+	
+	.column ul {padding-top:30px;
+	list-style:disc;}
+	.column  li{ width:auto;
+	font-size:14pt;
+	font-family:"BentonSansCond Book";
+	padding-top:2px;
+	color:#333333;
+	}
+	
+	
+	.column_third { width:30%;
+min-height:100px;
+float:left;
+margin: 0 15px 0 10px;
+
+padding:0;
+margin-top:30px;
+			color:#333333;
+
+	
+	}
+	
+	.column_third img {
+ display: block;
+    margin-left: auto;
+    margin-right: auto 		}
+	
+p.column_third { 
+width:95%;
+text-align:center;
+	font-size:14pt;
+	font-family:"BentonSansCond Book";
+	
+	}
+
+.full_content { 
+width:100%;
+background-color:;
+min-height:100px;
+margin-left: auto;
+margin-top:50px;
+    margin-right: auto;
+	position:;
+	font-size:18pt;
+	font-family:"BentonSansCond Book";
+				color:#333333;
+
+	
+	}
+
+
+
+.module_content {
+	
+	width:100%;
+max-height:400px;
+margin-left: auto;
+background-color:;
+margin-bottom:40px;
+    margin-right: auto;
+	position:relative;
+	font-size:14pt;
+	font-family:"BentonSansCond Book";
+					color:#333333;
+}
+
+.module_content ul {padding-left:20px;
+list-style:disc;
+}
+	
+	
+	
+	
+	
+	
+	.footerIndex {
+			min-width:100%;
+
+border-top: 6px solid rgb(139,7,5) !important;
+height:200px;
+background: #801005 !important;
+min-width: 100% !important;
+color:white;
+font-family:"BentonSansCond Book";
+font-size:24px;
+}
+
+
+.footerTextIndex {
+text-align: center;
+width: 444px;
+background: rgb(139,7,5);
+height: 42px;
+line-height: 42px;
+margin: -24px auto ;
+left:50%;
+right:50%;
+	
+}
+
+
+
+
+#left-footer {
+	width:auto;
+	float:left;
+	margin-top:5%;
+	margin-left:25%;
+	padding:0;
+	
+}
+
+
+#right-footer {
+	float:left;
+	padding:0;
+	background-color:;
+width: 180px;
+float: right;
+margin-left:%;
+margin-top:5%;
+border-left: 1px solid white;
+padding: 0px 0px 0px 40px;
+color:white;
+font-family:"BentonSansCond Book";
+font-size:12px;
+
+}
+
+
+
+
+
+
+
+
+.footer-links {
+	
+	width:auto;
+    margin: 0px;
+    padding: 0px;
+    float:;
+    font-size: 12pt;
+	list-style-type:none;
+	color:gray;
+
+	}
+	
+	
+	.footer-links a { color:white;
+	text-decoration:none;
+		
+		}
+		.footer-links a:hover { color:#44697D;
+	text-decoration:none;
+	
+		
+		}
+
+.footer-links ul li{display:inline-block;
+}
+
+.footer-links ul li a{display:inline;
+	text-decoration:none;
+	color:white;
+}
+
+.footer-links ul li a:hover{display:inline;
+	color: #44697D;
+}
+
+
+.clear { clear:both;}
+
+
+
+
+
+
+
+
+
+	
